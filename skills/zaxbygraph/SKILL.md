@@ -58,4 +58,5 @@ Commit-message auto-close is not in the DB in v0.1.
 
 Replace “page every issue into context” with: `zaxbygraph sync`, then collectors
 run `search` / `sql` / `related` and return truncated rows. The lead model alone
-generates candidates. See `docs/frontier-audit-hook.md`.
+generates candidates. Full program: [`../frontier-audit-enhance/SKILL.md`](../frontier-audit-enhance/SKILL.md).
+Hook: `docs/frontier-audit-hook.md`.

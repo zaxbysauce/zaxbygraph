@@ -76,6 +76,11 @@ truncated `search` / `item` / `related` / `sql` JSON; they do not cluster.
 Copy [`skills/zaxbygraph/SKILL.md`](skills/zaxbygraph/SKILL.md) into
 `.agents/skills`, `.claude/skills`, or `.opencode/skills`.
 
+The collector-only audit program (lead generates every candidate; independent
+reviewers/critics verify) is [`skills/frontier-audit-enhance/`](skills/frontier-audit-enhance/SKILL.md).
+Phase 1 prefers this DB over paging GitHub. Standalone paste prompt:
+[`skills/frontier-audit-enhance/assets/PASTE_PROMPT.md`](skills/frontier-audit-enhance/assets/PASTE_PROMPT.md).
+
 ## Schema (v1)
 
 Tables: `items`, `labels`, `comments`, `reviews`, `pr_files`, `releases`,
